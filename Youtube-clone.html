@@ -3,26 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="main-css.css">
         <title>Youtube Video Page</title>
     </head>
     <body>
         <nav>
-            <span style="float:left; width:90%;"><span class="material-icons">
+            <span class="first-nav-icon"><span class="material-icons">
                 view_headline
             </span>
-
-            <input type="text" placeholder="Search" />
+            <span class="material-icons">
+                <img id="logo" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0014/8529/brand.gif?itok=h-iXSoAK"/>
+                </span>
+           <center> <input id="search-box" type="text" placeholder="Search" />
             <button>
                 <span class="material-icons">
                 search
                 </span>
-            </button>
+            </button></center>
             </span>
             
             
-            <span style="float:right; padding:15px;">
+            <span class="nav-icons" >
             <span class="material-icons">
                 video_call
             </span>
@@ -43,7 +45,7 @@
 
                 <iframe width="700" height="450" src="https://www.youtube.com/embed/iWOYAxlnaww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
-            <section id="right-side"> Here is left side</section>
+            
             <footer>
 <div>
                 <h4>Modern JavaScript Tutorial #1 - Intro & Setup</h4>

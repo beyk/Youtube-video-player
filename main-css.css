@@ -1,10 +1,8 @@
 nav {
     width: 100%; 
     display: table;
-    border: 1px solid #444444;
+    border: 5px solid #444444;
     float: left;
-    margin-bottom: 25px;
-    padding-bottom: 25px;
 }
 main    {
     float: left;
@@ -21,7 +19,7 @@ body {
     background-color: lightblue;
   }
   .material-icons{
-  padding-right: 25px;
+  
    float: left;
    
   }
@@ -29,3 +27,23 @@ body {
       width: 40%;
       
   }
+  .nav-icons {
+    float:right;
+     padding:15px;
+  }
+  .first-nav-icon{
+    float:left; 
+    width:90%;
+    margin-bottom: 30px;
+  }
+  #search-box{
+    width: 600px;  
+    margin-left: 50px;
+  }
+#logo {
+    width: 35px;
+    height: 35px;
+}
+#count {
+    float: left;
+}
