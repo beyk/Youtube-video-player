@@ -1,13 +1,17 @@
+body {
+    background-color: lightblue;
+  }
+.container    {
+    float: left;
+    place-content: inherit;
+}
 nav {
     width: 100%; 
     display: table;
     border: 5px solid #444444;
     float: left;
 }
-main    {
-    float: left;
-    place-content: inherit;
-}
+
 #detail-des{
     float: left;
 }
@@ -15,23 +19,22 @@ aside
 {
 float:right;
 }
-body {
-    background-color: lightblue;
-  }
-  .material-icons{
+
+.material-icons{
   
    float: left;
+   padding-left: 7px;
    
   }
-  #search-place {
+#search-place {
       width: 40%;
       
   }
-  .nav-icons {
+nav .right-icons {
     float:right;
      padding:15px;
   }
-  .first-nav-icon{
+  nav .icon{
     float:left; 
     width:90%;
     margin-bottom: 30px;
@@ -44,6 +47,16 @@ body {
     width: 35px;
     height: 35px;
 }
-#count {
+.container.left-side.views {
     float: left;
+}
+#detail-icon-right {
+    float: right;
+}
+#date-span {
+    float: left;
+    margin-left: 10px;
+}
+.container.video{
+    margin: 50px;
 }

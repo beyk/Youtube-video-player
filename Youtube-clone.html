@@ -8,56 +8,64 @@
         <title>Youtube Video Page</title>
     </head>
     <body>
+    <!--Nav-bar Section-->   
         <nav>
-            <span class="first-nav-icon"><span class="material-icons">
+            <span class="icon">
+                <span class="material-icons">
                 view_headline
-            </span>
+                </span>
             <span class="material-icons">
                 <img id="logo" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0014/8529/brand.gif?itok=h-iXSoAK"/>
-                </span>
-           <center> <input id="search-box" type="text" placeholder="Search" />
-            <button>
+            </span>
+   <center> <input id="search-box" type="text" placeholder="Search" />
+                 <button>
+                      <span class="material-icons">
+                         search
+                     </span>
+                 </button></center>
+            </span>
+            
+            
+            <span class="right-icons" >
                 <span class="material-icons">
-                search
+                    video_call
                 </span>
-            </button></center>
-            </span>
-            
-            
-            <span class="nav-icons" >
-            <span class="material-icons">
-                video_call
-            </span>
 
-            <span class="material-icons">
-                notifications
-            </span>
+                <span class="material-icons">
+                     notifications
+                </span>
 
-            <span class="material-icons">
-                apps
-            </span>
+                <span class="material-icons">
+                    apps
+                </span>
             </span>
                 
         </nav>
-        <main style="float:left;">
-            <section id="main">
-                <section id="video">
-
-                <iframe width="700" height="450" src="https://www.youtube.com/embed/iWOYAxlnaww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
-            
-            <footer>
-<div>
+    <!--Main Section-->  
+        
+         <main class="container">
+            <section class="container left-side">
+            <!--Video Section-->  
+                <section class="container video">
+                    <iframe width="700" height="450" src="https://www.youtube.com/embed/iWOYAxlnaww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </section>
+    <!--  Details Section -->
+            <div>
                 <h4>Modern JavaScript Tutorial #1 - Intro & Setup</h4>
-                <div id="count" ><span >96,060 views</span></div>
-                <span >Apr 11, 2019</span>
-                <div id="icon">
+                
+                <div class="container left-side views" ><span >96,060 views</span></div>
+                <span id="date-span" >Apr 11, 2019</span>
+                <span id="detail-icon-right" >
                     <span class="material-icons">
                         thumb_up
-                        </span>754
+                    </span>
+                    
+                 <span>•</span>
+                
                         <span class="material-icons" >
                             thumb_down
-                            </span>25
+                            </span>
+                          
                             <span class="material-icons">
                                 redo
                                 </span>
@@ -69,12 +77,13 @@
                                         </span>
                 </div>
             </div>
-            </footer>
+            
             </section>
 
         </main>
-
-        <aside style="float:right;">
+    </section>
+    <!--Right Side Section --> 
+        <aside >
             <div>
                 <h3>Video Title</h3>
                 <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" style="width:50%;height:125px;" alt="Video image">
