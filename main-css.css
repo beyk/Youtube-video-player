@@ -3,6 +3,8 @@ nav {
     display: table;
     border: 1px solid #444444;
     float: left;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 main    {
     float: left;
@@ -19,7 +21,7 @@ body {
     background-color: lightblue;
   }
   .material-icons{
-  
+  padding-right: 25px;
    float: left;
    
   }
