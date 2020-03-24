@@ -1,0 +1,29 @@
+nav {
+    width: 100%; 
+    display: table;
+    border: 1px solid #444444;
+    float: left;
+}
+main    {
+    float: left;
+    place-content: inherit;
+}
+#detail-des{
+    float: left;
+}
+aside
+{
+float:right;
+}
+body {
+    background-color: lightblue;
+  }
+  .material-icons{
+  
+   float: left;
+   
+  }
+  #search-place {
+      width: 40%;
+      
+  }
