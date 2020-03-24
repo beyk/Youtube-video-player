@@ -60,3 +60,16 @@ nav .right-icons {
 .container.video{
     margin: 50px;
 }
+.recommended-video{
+    display:inline-block;
+    
+}
+.recommended-video.title{
+    display:inline-block; 
+    
+}
+.recommended-video.images{
+    width:100%;
+    height:125px;
+    margin-top: 50px;
+}
