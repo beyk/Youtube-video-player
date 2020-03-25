@@ -2,18 +2,23 @@ body {
 }
 .container
 {
-
+  display: flex;
 }
 /*Start of Header Section Style*/
-.container.header{
+#header1{
   display: flex;
   padding-right: 25px;
   margin-bottom: 30px;
+}
+.container.header{
+  display: flex;padding-right: 25px;margin-bottom: 30px;
 
 }
 .container.header.left-side{
-  width: 15%;
-  display: flex
+  
+  display: flex;
+  padding-right: 25px;
+  margin-bottom: 30px;
 }
 .material-icons{
 
@@ -107,6 +112,8 @@ float:right;
   margin-top: 50px;
 }
 
-.material-icons {
+a { color: #FF0000; }
+.material-icons
+{
   color: black;
 }
