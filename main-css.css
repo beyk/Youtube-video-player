@@ -1,75 +1,108 @@
 body {
-    background-color: lightblue;
-  }
-.container    {
-    float: left;
-    place-content: inherit;
 }
-nav {
-    width: 100%; 
-    display: table;
-    border: 5px solid #444444;
-    float: left;
-}
+.container
+{
 
-#detail-des{
-    float: left;
 }
+/*Start of Header Section Style*/
+.container.header{
+  display: flex;
+  padding-right: 25px;
+  margin-bottom: 30px;
+
+}
+.container.header.left-side{
+  width: 15%;
+  display: flex
+}
+.material-icons{
+
+}
+.container.header.search-bar{
+  width: 80%;
+}
+container.header.search-bar.search-input{
+  width: 60%;
+}
+.container.header.header-right-side{
+  width: 5%;
+  display: flex;
+  margin-right: 15px;
+  margin-left: auto;
+
+}
+.container.header.header-right-side.header-notification-icon
+{
+  padding-left: 10px;
+}
+.container.header.header-right-side.header-apps-icon
+{
+  padding-left: 10px;
+}
+/*End of Header Section Style */
+/*Start of Main Section Style*/
+
+.container.main
+{
+  display: flex;
+}
+.main.main-left-side
+{
+  width: 70%; 
+  margin-left: 50px;
+}
+.container.main.main-left-side.video-views-line
+{
+  display: flex;
+}
+.container.main.main-left-side.video-views-line.video-view-date
+{
+  width: 500px;
+}
+.container.main.main-left-side.video-views-line.video-view-date.video-icons
+{
+  margin-right: 0px;
+  margin-left: 50px;
+}
+.container.main.main-left-side.Author-part
+{
+  display: flex;
+}
+.container.main.main-left-side.Author-part.auther-avator
+{
+  width: 50px;
+}
+.container.main.main-left-side.Author-part.image
+{
+  border-radius: 50%;
+}
+.container.main.main-left-side.Author-part.auther-name-subs-number
+{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.container.main.main-left-side.Author-part.sub-btn
+{
+  float: right;
+  margin-left: 50%;
+}
+/*End of Main Section Style*/
+/*Start of  Right Side Section Style*/
 aside
 {
 float:right;
 }
 
-.material-icons{
-  
-   float: left;
-   padding-left: 7px;
-   
-  }
-#search-place {
-      width: 40%;
-      
-  }
-nav .right-icons {
-    float:right;
-     padding:15px;
-  }
-  nav .icon{
-    float:left; 
-    width:90%;
-    margin-bottom: 30px;
-  }
-  #search-box{
-    width: 600px;  
-    margin-left: 50px;
-  }
-#logo {
-    width: 35px;
-    height: 35px;
-}
-.container.left-side.views {
-    float: left;
-}
-#detail-icon-right {
-    float: right;
-}
-#date-span {
-    float: left;
-    margin-left: 10px;
-}
-.container.video{
-    margin: 50px;
-}
 .recommended-video{
-    display:inline-block;
-    
+  display:inline-block;
+  
 }
 .recommended-video.title{
-    display:inline-block; 
-    
+  display:inline-block; 
+  
 }
 .recommended-video.images{
-    width:100%;
-    height:125px;
-    margin-top: 50px;
+  width:100%;
+  height:125px;
+  margin-top: 50px;
 }

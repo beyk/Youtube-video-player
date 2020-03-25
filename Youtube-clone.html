@@ -4,133 +4,168 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="main-css.css">
+        <link rel="stylesheet" href="main.css">
         <title>Youtube Video Page</title>
     </head>
     <body>
-    <!--Nav-bar Section-->   
-        <nav>
-            <span class="icon">
-                <span class="material-icons">
-                view_headline
-                </span>
-            <span class="material-icons">
-                <img id="logo" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0014/8529/brand.gif?itok=h-iXSoAK"/>
-            </span>
-   <center> <input id="search-box" type="text" placeholder="Search" />
-                 <button>
-                      <span class="material-icons">
-                         search
-                     </span>
-                 </button></center>
-            </span>
-            
-            
-            <span class="right-icons" >
-                <span class="material-icons">
-                    video_call
-                </span>
+        <section class="container">
+     <!--Start Header Section-->
+        <section class="container header" style="display: flex;padding-right: 25px;margin-bottom: 30px;">
 
+            <div id="left-side" style="width: 15%;display: flex"> 
                 <span class="material-icons">
-                     notifications
-                </span>
-
-                <span class="material-icons">
-                    apps
-                </span>
-            </span>
-                
-        </nav>
-    <!--Main Section-->  
-        
-         <main class="container">
-            <section class="container left-side">
-            <!--Video Section-->  
-                <section class="container video">
-                    <iframe width="700" height="450" src="https://www.youtube.com/embed/iWOYAxlnaww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 </section>
-    <!--  Details Section -->
-            <div>
-                <h4>Modern JavaScript Tutorial #1 - Intro & Setup</h4>
-                
-                <div class="container left-side views" ><span >96,060 views</span></div>
-                <span id="date-span" >Apr 11, 2019</span>
-                <span id="detail-icon-right" >
-                    <span class="material-icons">
-                        thumb_up
+                    view_headline
                     </span>
-                    
-                 <span>•</span>
-                
-                        <span class="material-icons" >
-                            thumb_down
-                            </span>
-                          
-                            <span class="material-icons">
-                                redo
-                                </span>
-                                <span class="material-icons">
-                                    playlist_add
-                                    </span>
-                                    <span class="material-icons">
-                                        more_horiz
-                                        </span>
+                <div id="header-logo-icon">
+                    <img id="logo" src="youtube-new-logo.jpeg"/>
                 </div>
             </div>
+               
+                <div id="header-search-bar" style="width: 80%;">
+                    <form>
+                        <input type="text" class="search-input" style="width: 60%;">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <div id="header-right-side" style="width: 5%;display: flex;margin-right: 0px;margin-left: auto;">
+                    <div id="header-video-call">
+                        <span class="material-icons">
+                            video_call
+                        </span>
+                    </div>
+                    <div id="header-notification-icon" style="padding-left: 10px;">
+                        <span class="material-icons">
+                            notifications
+                       </span>
+                    </div>
+                    <div id="header-apps-icon"style="padding-left: 10px;">
+                        <span class="material-icons">
+                            apps
+                        </span>
+                    </div>
+                </div>
+            </section> 
+            <!--End of Header Section-->
+            <!--Start of Main Section-->
+            <section id="main" style="display: flex;">
+                <!--Start of Main-left-div that contains video-player , title, number of views,comments...-->
+                <div id="main-left-side" style="width: 70%; margin-left: 50px;">
+
+                    <div id="video-player">
+                        <div id="video">
+
+                            <iframe width="700" height="450" src="https://www.youtube.com/embed/iWOYAxlnaww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+
+                        <div id="video-title">
+                            <h4>Modern JavaScript Tutorial #1 - Intro & Setup</h4>
+                        </div>
+
+                        <div id="video-views-line" style="display: flex;">
+                            <div id="video-view-date" style="width: 500px;">
+                                <span >96,060 views. </span>
+                                <span id="date-span" >Apr 11, 2019</span>
+                            </div>
+
+                            <div id="video-icons" style="margin-right: 0px;margin-left: 50px;" >
+                                    <span class="material-icons">
+                                    thumb_up
+                                    </span>
+                                    <span>254</span>
+                                    <span class="material-icons" >
+                                        thumb_down
+                                        </span>
+                                        <span>25</span>
+                                        <span class="material-icons">
+                                            redo
+                                            </span>
+                                            <span class="material-icons">
+                                                playlist_add
+                                                </span>
+                                                <span class="material-icons">
+                                                    more_horiz
+                                                    </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr width="#">
+                    <div id="Author-part" style="display: flex;">
+                        <div id="auther-avator" style="width: 50px;">
+                            <img src="auther-avator.jpg" style="border-radius: 50%;"\>
+                        </div>
+                        <div id="auther-name-subs-number" style="margin-left: 60px;margin-top: 20px;">
+                             <span id="Auther-name">Abdullah & Asghar</span>
+                    <br/>
+                             <span id="subs-numbers">2200 subscribes</span>
+                             <br/>
+                             <h4>Get the full Modern JavaScript (novice to ninja) course from Udemy. Discount auto applied:
+                                https://www.thenetninja.co.uk/udemy/m...
+                                </h4>
+                        </div>
+                        <div id="subs-btn" style="float: right;margin-left: 50%;">
+                            <input type="button" title="Subscribe" value="Subscribe"\>
+                        </div>
+                        
+                       
+                    </div>
+                    <hr>
+                    
+                </div>
+                <!--End of main part-->
+                <!--Start of Right Side that cover recomended video's-->
+                <div id="main-right-side">
+                    <aside >
+                        <section id="recommended-vedeo0-section">
+                            <div class="recommended-video" >
+                                <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
+                            </div>
+                            <span class="recommended-video title" >
+                                <h3>Video Title</h3>
+                                <span>987K Views</span>
+                            </span>
+                        </section>
             
-            </section>
+                        <section id="recommended-vedeo1-section">
+                            <div class="recommended-video" >
+                                <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
+                            </div>
+                            <span class="recommended-video title" >
+                                <h3>Video Title</h3>
+                                <span>987K Views</span>
+                            </span>
+                        </section>
+                        <section id="recommended-vedeo2-section">
+                            <div class="recommended-video" >
+                                <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
+                            </div>
+                            <span class="recommended-video title" >
+                                <h3>Video Title</h3>
+                                <span>987K Views</span>
+                            </span>
+                        </section>
+                        <section id="recommended-vedeo3-section">
+                            <div class="recommended-video" >
+                                <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
+                            </div>
+                            <span class="recommended-video title" >
+                                <h3>Video Title</h3>
+                                <span>987K Views</span>
+                            </span>
+                        </section>
+                        <section id="recommended-vedeo4-section">
+                            <div class="recommended-video" >
+                                <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
+                            </div>
+                            <span class="recommended-video title" >
+                                <h3>Video Title</h3>
+                                <span>987K Views</span>
+                            </span>
+                        </section>
+                    </aside>
+                </div>
 
-        </main>
-    </section>
-    <!--Right Side Section --> 
-        <aside >
-            <section>
-                <div class="recommended-video" >
-                    <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
-                </div>
-                <span class="recommended-video title" >
-                    <h3>Video Title</h3>
-                    <span>987K Views</span>
-                </span>
             </section>
-
-            <section>
-                <div class="recommended-video" >
-                    <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
-                </div>
-                <span class="recommended-video title" >
-                    <h3>Video Title</h3>
-                    <span>987K Views</span>
-                </span>
-            </section>
-            <section>
-                <div class="recommended-video" >
-                    <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
-                </div>
-                <span class="recommended-video title" >
-                    <h3>Video Title</h3>
-                    <span>987K Views</span>
-                </span>
-            </section>
-            <section>
-                <div class="recommended-video" >
-                    <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
-                </div>
-                <span class="recommended-video title" >
-                    <h3>Video Title</h3>
-                    <span>987K Views</span>
-                </span>
-            </section>
-            <section>
-                <div class="recommended-video" >
-                    <img src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image">
-                </div>
-                <span class="recommended-video title" >
-                    <h3>Video Title</h3>
-                    <span>987K Views</span>
-                </span>
-            </section>
-        </aside>
-
+        </section>
     </body>
-</html>
