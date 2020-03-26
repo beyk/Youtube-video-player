@@ -44,15 +44,11 @@ body,html{
   min-width: 1440px;
   height: 6160px;
 }
-section.sticky {
+nav.sticky {
   position: -webkit-sticky;
   position: sticky;
 }
 
-.container
-{
-  
-}
 /*Start of Header Section Style*/
 
 .header{
