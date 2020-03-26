@@ -13,10 +13,10 @@ body {
   margin-bottom: 30px;
 
 }
-.left-side{
+.header-left-side{
   width: 15%;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   
 }
 .material-icons{
