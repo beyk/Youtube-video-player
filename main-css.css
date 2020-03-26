@@ -26,12 +26,6 @@
   src: url("../Fonts/TitilliumWeb-Bold.ttf");
 
 }
-.subtext-font-family{
-  font-family: Roboto, Arial, sans-serif;
-}
-.gray-color{
-  color: rgb(144,144,144);
-}
 body,html{
   font-family: Titillium;
   background-color: #ffff;
@@ -40,7 +34,7 @@ body,html{
   direction: ltr;
   font-size: 14px;
   font-weight: 100;
-  
+  text-align: center;
   min-width: 1440px;
   height: 6160px;
 }
@@ -52,12 +46,13 @@ body,html{
 /*Start of Header Section Style*/
 
 .header{
-  height: 56px;
   display: flex;
-  
   padding: 25px;
-  margin-bottom: 30px; 
-  align-items: center;
+  margin-bottom: 30px;
+  background-color: #87509c;
+  padding-top: 50px;
+  height: 100px;
+
 }
 .header-left-side{
   width: 15%;
@@ -71,7 +66,7 @@ body,html{
 .header-search-bar{
   width: 80%;
 }
-.container.header.search-bar.search-input{
+container.header.search-bar.search-input{
   width: 60%;
 }
 .header-right-side{
@@ -93,38 +88,27 @@ body,html{
 /*End of Header Section Style */
 /*Start of Main Section Style*/
 
-
-.main-container{
+.container.main
+{
   display: flex;
-  margin-left: 10%;
 }
-
 .main-left-side
 {
-  width: 55%; 
+  width: 70%; 
   margin-left: 50px;
 }
 .video-views-line
 {
   display: flex;
 }
-#video-title>span{
-  font-size: 18pt;
-}
 .video-view-date
 {
-  width: 250px;
-  font-family: Roboto, Arial, sans-serif;
-  color:rgb(144,144,144) ;
+  width: 500px;
 }
 .video-icons
 {
   margin-right: 0px;
   margin-left: 50px;
-}
-.video-icons>span{
-  margin-right: 10px;
-  color: rgb(144,144,144);
 }
 .Author-part
 {
@@ -155,7 +139,7 @@ body,html{
   color: white;
 }
 .main-left-side>hr{
-  width: 90%;
+  width: 80%;
   margin-left: 0px;
 }
 /*End of Main Section Style*/
@@ -176,12 +160,11 @@ body,html{
    margin-left:0px;
   
 }
-.recommended-video.title{
-  margin-left:10px;
-  margin-top: 0px;
+.recommended-video>span{
+  font-size:12px;
+  
 }
-.recommended-video>span {
-  font-size: 12px; 
+
 }
 .recommended-video-section
 {
@@ -195,5 +178,5 @@ body,html{
 
 .material-icons
 {
-  color: rgb(144,144,144);
+  color: black;
 }
