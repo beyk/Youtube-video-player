@@ -4,15 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="main-css.css">
         <title>Youtube Video Page</title>
     </head>
     <body>
         <section class="container">
      <!--Start Header Section-->
-        <section class="container header" style="display: flex;padding-right: 25px;margin-bottom: 30px;">
+        <section class="header">
 
-            <div id="left-side" style="width: 15%;display: flex"> 
+            <div class="left-side" > 
                 <a href="#">
                     <span class="material-icons" > 
                     view_headline
@@ -23,13 +23,13 @@
                 </div>
             </div>
                
-                <div id="header-search-bar" style="width: 80%;">
+                <div class="header-search-bar" >
                     <form>
                         <input type="text" class="search-input" style="width: 60%;">
                         <button type="submit">Search</button>
                     </form>
                 </div>
-                <div id="header-right-side" style="width: 5%;display: flex;margin-right: 0px;margin-left: auto;">
+                <div class="header-right-side" >
                     <div id="header-video-call">
                     <a href="#">
                         <span class="material-icons">
@@ -37,14 +37,14 @@
                         </span>
                     </a>
                     </div>
-                    <div id="header-notification-icon" style="padding-left: 10px;">
+                    <div class="header-notification-icon">
                     <a href="#">
                         <span class="material-icons">
                             notifications
                         </span>
                     </a>
                     </div>
-                    <div id="header-apps-icon"style="padding-left: 10px;">
+                    <div class="header-apps-icon">
                     <a href="#">
                         <span class="material-icons">
                             apps
@@ -57,7 +57,7 @@
             <!--Start of Main Section-->
             <section id="main" style="display: flex;">
                 <!--Start of Main-left-div that contains video-player , title, number of views,comments...-->
-                <div id="main-left-side" style="width: 70%; margin-left: 50px;">
+                <div class="main-left-side" >
 
                     <div id="video-player">
                         <div id="video">
@@ -70,13 +70,13 @@
                             <h4>Modern JavaScript Tutorial #1 - Intro & Setup</h4>
                         </div>
 
-                        <div id="video-views-line" style="display: flex;">
-                            <div id="video-view-date" style="width: 500px;">
+                        <div class="video-views-line" >
+                            <div class="video-view-date">
                                 <span >96,060 views. </span>
                                 <span id="date-span" >Apr 11, 2019</span>
                             </div>
 
-                            <div id="video-icons" style="margin-right: 0px;margin-left: 50px;" >
+                            <div class="video-icons"  >
                                     <span class="material-icons">
                                     thumb_up
                                     </span>
@@ -99,12 +99,12 @@
 
                     </div>
                     <hr width="#">
-                    <div id="Author-part" style="display: flex;">
-                        <div id="auther-avator" style="width: 50px;">
-                            <img src="auther-avator.jpg" style="border-radius: 50%;"\>
+                    <div class="Author-part" >
+                        <div class="author-avatar" >
+                            <img src="author-avatar.jpg" class="avatar-image" \>
                         </div>
-                        <div id="auther-name-subs-number" style="margin-left: 60px;margin-top: 20px;">
-                             <span id="Auther-name">Abdullah & Asghar</span>
+                        <div class="author-name-subs-number" >
+                             <span id="author-name">Abdullah & Asghar</span>
                     <br/>
                              <span id="subs-numbers">2200 subscribes</span>
                              <br/>
@@ -112,8 +112,8 @@
                                 https://www.thenetninja.co.uk/udemy/m...
                                 </h4>
                         </div>
-                        <div id="subs-btn" style="float: right;margin-left: 50%;">
-                            <input type="button" title="Subscribe" value="Subscribe"\>
+                        <div class="subs-btn" >
+                            <input type="button" title="Subscribe" value="SUBSCRIBE" \>
                         </div>
                         
                        
@@ -125,62 +125,67 @@
                 <!--Start of Right Side that cover recomended video's-->
                 <div id="main-right-side">
                     <aside >
-                        <section id="recommended-vedeo0-section" style="display:flex;">
-                            <div class="recommended-video" style="width:50%;">
-                                <img style="margin-right:0px;" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image" width="100%">
+                        <section class="recommended-video-section" >
+                            <div class="recommended-video" >
+                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
                             </div>
-                            <div class="recommended-video title" style="margin-left:10px;">
-                                <h3 style="margin-bottom:0px; margin-top:0px; margin-left:0px;">Video Title</h3>
-                                <h5 style="margin-bottom:0px; margin-top:0px">The Net Ninja</h5>
-                                <span style="font-size:12px;">987K Views</span> <span style="font-size:12px;">1 month ago</span>
+                            <div class="recommended-video title" style="margin-left:10px;margin-top: 0px;">
+                                <h3  >Video Title</h3>
+                                <h5>The Net Ninja</h5>
+                                <span style="font-size:12px;">987K Views</span>
+                                 <span >1 month ago</span>
                             </div>
                         </section>
                         <hr/>
             
-                        <section id="recommended-vedeo0-section" style="display:flex;">
-                            <div class="recommended-video" style="width:50%;">
-                                <img style="margin-right:0px;" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image" width="100%">
+                        <section class="recommended-video-section" >
+                            <div class="recommended-video" >
+                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
                             </div>
-                            <div class="recommended-video title" style="margin-left:10px;">
-                                <h3 style="margin-bottom:0px; margin-top:0px; margin-left:0px;">Video Title</h3>
-                                <h5 style="margin-bottom:0px; margin-top:0px">The Net Ninja</h5>
-                                <span style="font-size:12px;">987K Views</span> <span style="font-size:12px;">1 month ago</span>
-                            </div>
-                        </section>
-                        <hr/>
-
-                        <section id="recommended-vedeo0-section" style="display:flex;">
-                            <div class="recommended-video" style="width:50%;">
-                                <img style="margin-right:0px;" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image" width="100%">
-                            </div>
-                            <div class="recommended-video title" style="margin-left:10px;">
-                                <h3 style="margin-bottom:0px; margin-top:0px; margin-left:0px;">Video Title</h3>
-                                <h5 style="margin-bottom:0px; margin-top:0px">The Net Ninja</h5>
-                                <span style="font-size:12px;">987K Views</span> <span style="font-size:12px;">1 month ago</span>
+                            <div class="recommended-video title" style="margin-left:10px;margin-top: 0px;">
+                                <h3  >Video Title</h3>
+                                <h5>The Net Ninja</h5>
+                                <span style="font-size:12px;">987K Views</span>
+                                 <span >1 month ago</span>
                             </div>
                         </section>
                         <hr/>
 
-                        <section id="recommended-vedeo0-section" style="display:flex;">
-                            <div class="recommended-video" style="width:50%;">
-                                <img style="margin-right:0px;" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image" width="100%">
+                        <section class="recommended-video-section" >
+                            <div class="recommended-video" >
+                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
                             </div>
-                            <div class="recommended-video title" style="margin-left:10px;">
-                                <h3 style="margin-bottom:0px; margin-top:0px; margin-left:0px;">Video Title</h3>
-                                <h5 style="margin-bottom:0px; margin-top:0px">The Net Ninja</h5>
-                                <span style="font-size:12px;">987K Views</span> <span style="font-size:12px;">1 month ago</span>
+                            <div class="recommended-video title" style="margin-left:10px;margin-top: 0px;">
+                                <h3  >Video Title</h3>
+                                <h5>The Net Ninja</h5>
+                                <span style="font-size:12px;">987K Views</span>
+                                 <span >1 month ago</span>
                             </div>
                         </section>
                         <hr/>
 
-                        <section id="recommended-vedeo0-section" style="display:flex;">
-                            <div class="recommended-video" style="width:50%;">
-                                <img style="margin-right:0px;" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg" class="recommended-video images"  alt="Video image" width="100%">
+                        <section class="recommended-video-section" >
+                            <div class="recommended-video" >
+                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
                             </div>
-                            <div class="recommended-video title" style="margin-left:10px;">
-                                <h3 style="margin-bottom:0px; margin-top:0px; margin-left:0px;">Video Title</h3>
-                                <h5 style="margin-bottom:0px; margin-top:0px">The Net Ninja</h5>
-                                <span style="font-size:12px;">987K Views</span> <span style="font-size:12px;">1 month ago</span>
+                            <div class="recommended-video title" style="margin-left:10px;margin-top: 0px;">
+                                <h3  >Video Title</h3>
+                                <h5>The Net Ninja</h5>
+                                <span style="font-size:12px;">987K Views</span>
+                                 <span >1 month ago</span>
+                            </div>
+                        </section>
+                        <hr/>
+
+                       <section class="recommended-video-section" >
+                            <div class="recommended-video" >
+                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
+                            </div>
+                            <div class="recommended-video title" style="margin-left:10px;margin-top: 0px;">
+                                <h3  >Video Title</h3>
+                                <h5>The Net Ninja</h5>
+                                <span style="font-size:12px;">987K Views</span>
+                                 <span >1 month ago</span>
                             </div>
                         </section>
                         <hr/>
