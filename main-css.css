@@ -102,11 +102,10 @@ container.header.search-bar.search-input{
 }
 /*End of Main Section Style*/
 /*Start of  Right Side Section Style*/
-aside
-{
-float:right;
-}
 
+.recommended-video-section{
+  display: flex;
+}
 .recommended-video>h3{
   margin-bottom:0px;
    margin-top:0px; 
