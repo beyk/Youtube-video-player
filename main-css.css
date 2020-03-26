@@ -1,5 +1,5 @@
 body {
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container
 {
@@ -16,6 +16,7 @@ body {
 .left-side{
   width: 15%;
   display: flex;
+  justify-content: space-between;
   
 }
 .material-icons{
