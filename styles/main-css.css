@@ -44,6 +44,10 @@ body,html{
   min-width: 1440px;
   height: 6160px;
 }
+section.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
 
 .container
 {
@@ -54,10 +58,11 @@ body,html{
 .header{
   height: 56px;
   display: flex;
-  
+  top: 0px;
   padding: 25px;
   margin-bottom: 30px; 
   align-items: center;
+  background-color: white;
 }
 .header-left-side{
   width: 15%;
