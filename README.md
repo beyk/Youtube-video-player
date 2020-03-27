@@ -1,5 +1,7 @@
 # Youtube-video-player
 
+![App Screenshot](app_screenshot.png)
+
 Youtube-video-player as our first microverse project
 This is a simple clone of Youtube video page. We recreated the Youtube video page by adding video elements and associated navigation and recommended videos section.
 
@@ -9,6 +11,7 @@ In this page we created:
 3. Sidebar recommendations where recommended videos are shown with their title, number of views and author name.
 
 Built With
+
 Languages used: HTML5 and CSS3.
 
 Authors
@@ -18,3 +21,5 @@ Github: @beyk
 
 Author2
 Github: @anewman15
+
+Live Version: https://rawcdn.githack.com/beyk/Youtube-video-player/fef96bdf934b5c89956025ddfd428f0f4cf5a72a/Youtube-clone.html
