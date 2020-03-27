@@ -39,10 +39,8 @@ body,html{
   margin: 0px;
   direction: ltr;
   font-size: 14px;
-  font-weight: 100;
-  
+  font-weight: 100;  
   min-width: 1440px;
-  height: 6160px;
 }
 nav.sticky {
   position: -webkit-sticky;
@@ -66,11 +64,9 @@ nav.sticky {
   justify-content: start;
   
 }
-.material-icons{
-
-}
 .header-search-bar{
-  width: 80%;
+  width: 100%;
+  text-align: center;
 }
 .container.header.search-bar.search-input{
   width: 60%;
@@ -154,7 +150,7 @@ nav.sticky {
 {
   float: right;
   margin-left: 0%;
-  margin-right: 200px;
+  margin-right: 10px;
  
 }
 .subs-btn>input{
