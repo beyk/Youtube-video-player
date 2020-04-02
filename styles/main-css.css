@@ -64,6 +64,11 @@ nav.sticky {
   background-color: white;
 }
 
+
+.material-icons {
+  color: rgb(144,144,144);
+}
+
 .header-left-side {
   width: 15%;
   display: flex;
@@ -114,11 +119,18 @@ nav.sticky {
   border: none;
 }
 
-.video-views-line {
-  display: flex;
+.video-caption {
+  margin-top: 20px;
 }
 
-#video-title>span {
+.video-views-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#video-title span {
   font-size: 18pt;
 }
 
@@ -128,37 +140,53 @@ nav.sticky {
   color:rgb(144,144,144) ;
 }
 
+.views-count:after {
+  content: "•";
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
 .video-icons {
   display: flex;
+  justify-content: space-between;
   align-content: center;
 }
 
-.video-icons span {
+.video-icons div {
   margin-right: 20px;
-  color: rgb(144,144,144);
+}
+
+.video-icons .material-icons {
+  font-size: 20px;
 }
 
 .author-part {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .avatar-username {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .author-avatar {
-  width: 50px;
+  margin-right: 10px;
 }
 
 .avatar-image {
   border-radius: 50%;
 }
 
-.author-name-subs-number {
-  margin-left: 60px;
-  margin-top: 20px;
+.author-details span{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.author-name {
+  font-weight: bold;
 }
 
 .subs-btn {
@@ -177,11 +205,14 @@ nav.sticky {
 
 .video-description {
   font-family: Roboto, Arial, sans-serif;
-  font-size: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 58px;
 }
 
 .main-left-side hr {
   margin-right: 10px;
+  margin-top: 20px;
 }
 
 /*End of Main Section Style*/
@@ -220,8 +251,4 @@ nav.sticky {
   width:100%;
   height:125px;
   margin-top: 0px;
-}
-
-.material-icons {
-  color: rgb(144,144,144);
 }
