@@ -129,12 +129,12 @@ nav.sticky {
 }
 
 .video-icons {
-  margin-right: 0px;
-  margin-left: 50px;
+  display: flex;
+  align-content: center;
 }
 
-.video-icons>span {
-  margin-right: 10px;
+.video-icons span {
+  margin-right: 20px;
   color: rgb(144,144,144);
 }
 
