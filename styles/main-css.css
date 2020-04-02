@@ -69,8 +69,8 @@ html {
 }
 
 .nav-logo {
-  width: 100px;
-  height: 30px;
+  width: 80px;
+  height: 25px;
 }
 
 .nav-search-bar {
@@ -219,7 +219,7 @@ html {
   margin-top: 100px;
   margin-bottom: 30px;
   font-weight: bold;
-  color: rgb(144,144,144);
+  color: #606060;
 }
 
 .main-left-side hr {
