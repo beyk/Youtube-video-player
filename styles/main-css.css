@@ -2,7 +2,6 @@
   font-family: "Titillium";
   font-weight: 500;
   src: url("../Fonts/TitilliumWeb-Regular.ttf");
-
 }
 
 @font-face {
@@ -37,7 +36,7 @@
   color: rgb(144,144,144);
 }
 
-body,html {
+body, html {
   font-family: Titillium;
   background-color: #ffff;
   padding: 0px;
@@ -139,8 +138,14 @@ nav.sticky {
   color: rgb(144,144,144);
 }
 
-.Author-part {
+.author-part {
   display: flex;
+  justify-content: space-between;
+}
+
+.avatar-username {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .author-avatar {
@@ -157,19 +162,26 @@ nav.sticky {
 }
 
 .subs-btn {
-  float: right;
-  margin-left: 0%;
   margin-right: 10px; 
 }
 
-.subs-btn>input {
+.subs-btn input {
+  width: 110px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 4px;
   background-color: red;
   color: white;
+  margin-right: 20px;
 }
 
-.main-left-side>hr {
-  width: 90%;
-  margin-left: 0px;
+.video-description {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.main-left-side hr {
+  margin-right: 10px;
 }
 
 /*End of Main Section Style*/
