@@ -10,16 +10,16 @@ In this page we created:
 2. Video player with the video section, video title and description. It also has a section with creator avatar, the number of views, likes, dislikes, share, save and subscription icons.
 3. Sidebar recommendations where recommended videos are shown with their title, number of views and author name.
 
-Built With
-
+# Built With
 Languages used: HTML5 and CSS3.
 
-Authors
+# Authors
+* Author1
+  * Github: [@beyk](https://github.com/beyk)
 
-Author1
-Github: @beyk
+* Author2
+  * Github: [@anewman15](https://github.com/anewman15)
+  * LinkedIn: [aanuman15](https://www.linkedin.com/in/aanuman15/)
 
-Author2
-Github: @anewman15
-
-Live Version: https://rawcdn.githack.com/beyk/Youtube-video-player/fef96bdf934b5c89956025ddfd428f0f4cf5a72a/Youtube-clone.html
+# Live Version
+Live version is available [here](https://rawcdn.githack.com/beyk/Youtube-video-player/90dfe270cd6071a0576ea7cd3e9fa2d7c24f15a3/Youtube-clone.html)
