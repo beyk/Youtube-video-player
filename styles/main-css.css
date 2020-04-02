@@ -28,15 +28,8 @@
   src: url("../Fonts/TitilliumWeb-Bold.ttf");
 }
 
-.subtext-font-family{
-  font-family: Roboto, Arial, sans-serif;
-}
-
-.gray-color {
-  color: rgb(144,144,144);
-}
-
-body, html {
+body,
+html {
   font-family: Titillium;
   background-color: #ffff;
   padding: 0px;
@@ -53,33 +46,39 @@ body, html {
 
 /*Start of Header Section Style*/
 
-.header {
+.nav-header {
+  width: 100%;
   height: 60px;
   display: flex;
   top: 0px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px; 
   justify-content: center;
   align-items: center;
+  vertical-align: middle;
   background-color: white;
 }
 
-
 .material-icons {
-  color: rgb(144,144,144);
+  color: #606060;
 }
 
-.header-left-side {
+.nav-left-side {
   display: flex;
   justify-content: space-evenly;  
 }
 
-.header-search-bar {
+.nav-logo {
+  width: 100px;
+  height: 30px;
+}
+
+.nav-search-bar {
   width: 100%;
   text-align: center;
 }
 
-.header-search-bar button {
+.nav-search-bar button {
   height: 36px;
 }
 
@@ -88,37 +87,36 @@ body, html {
   height: 30px;
 }
 
-.header-right-side {
+.nav-right-side {
   display: flex;
   justify-content: space-evenly;
+  margin-right: 10px;
 }
 
-.header-notification-icon {
-  padding-left: 10px;
-}
-
-.header-apps-icon {
-  padding-left: 10px;
+.nav-header a {
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 /*End of Header Section Style */
 /*Start of Main Section Style*/
 
 
-.main-container {
+.main-section {
   display: flex;
   max-width: 1280px;
   justify-content: center;
 }
 
 .main-left-side {
-  width: 55%; 
-  margin-left: 50px;
+  width: 60%; 
+  margin-right: 25px;
+  margin-left: 80px;
 }
 
 .video-iframe {
-  width: 640px;
-  height: 360px;
+  width: 100%;
+  height: 420px;
   border: none;
 }
 
@@ -140,7 +138,7 @@ body, html {
 .video-view-date {
   width: 250px;
   font-family: Roboto, Arial, sans-serif;
-  color:rgb(144,144,144) ;
+  color:rgb(144,144,144);
 }
 
 .views-count:after {
@@ -164,6 +162,7 @@ body, html {
 }
 
 .video-icons .material-icons {
+  color: rgb(144,144,144);
   font-size: 20px;
 }
 
@@ -197,7 +196,7 @@ body, html {
 }
 
 .subs-btn {
-  margin-right: 10px; 
+  margin-right: 5px; 
 }
 
 .subs-btn input {
@@ -216,8 +215,15 @@ body, html {
   margin-left: 58px;
 }
 
+.show-more {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: rgb(144,144,144);
+}
+
 .main-left-side hr {
-  margin-right: 10px;
+  margin-right: 0;
   margin-top: 15px;
 }
 
@@ -244,6 +250,11 @@ body, html {
 
 .autoplay-icon {
   font-size: 40px;
+}
+
+.autoplay-text {
+  font-weight: bold;
+  color: rgb(144,144,144);
 }
 
 .recommended-video-section hr {
@@ -280,4 +291,12 @@ body, html {
   width: 220px;
   height:120px;
   margin-top: 0px;
+}
+
+.subtext-font-family{
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.gray-color {
+  color: rgb(144,144,144);
 }
