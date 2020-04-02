@@ -16,6 +16,7 @@ Languages used: HTML5 and CSS3.
 # Authors
 * Author1
   * Github: [@beyk](https://github.com/beyk)
+  * LinkedIn: [asghar-beykmohammadi-1b16b291](https://www.linkedin.com/in/asghar-beykmohammadi-1b16b291/)
 
 * Author2
   * Github: [@anewman15](https://github.com/anewman15)
