@@ -11,7 +11,7 @@
         <main class="container">
      <!--Start Header Section-->
             <nav class="header sticky">
-                <div class="header-left-side " > 
+                <div class="header-left-side" > 
                     <a href="#">
                         <span class="material-icons" > 
                         menu
@@ -56,15 +56,15 @@
             </nav>
             <!--End of Header Section-->
             <!--Start of Main Section-->
-            <section id="main" class="main-container" >
+            <section class="main-container" >
                 <!--Start of Main-left-div that contains video-player , title, number of views,comments...-->
                 <div class="main-left-side">
                     <div id="video-player">
-                        <div id="video">
+                        <div class="video">
                             <iframe class="video-iframe"
                                 src="https://www.youtube.com/embed/iWOYAxlnaww"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                                allowfullscreen >
                             </iframe>
                         </div>
 
@@ -113,105 +113,135 @@
                             </div>
                         </div>
                         <hr>
-                    </div>
-                    <div class="author-part" >
-                        <div class="avatar-username">
-                            <div class="author-avatar" >
-                                <img src="images/author-avatar.jpg"
-                                class="avatar-image" alt="Avatar Logo"
-                                width="48px";
-                                />
+                        <div class="author-part" >
+                            <div class="avatar-username">
+                                <div class="author-avatar" >
+                                    <img src="images/author-avatar.jpg"
+                                    class="avatar-image" alt="Avatar Logo"
+                                    width="48px";
+                                    />
+                                </div>
+                                <div class="author-details" >
+                                    <span class="author-name">Abdullah & Asghar</span>
+                                    <br/>
+                                    <span>2200 subscribers</span>
+                                </div>
                             </div>
-                            <div class="author-details" >
-                                <span class="author-name">Abdullah & Asghar</span>
-                                <br/>
-                                <span>2200 subscribers</span>
+                            <div class="subs-btn" >
+                                <input type="button" title="Subscribe" value="SUBSCRIBE" />
                             </div>
                         </div>
-                        <div class="subs-btn" >
-                            <input type="button" title="Subscribe" value="SUBSCRIBE" />
+                        <div class="video-description">
+                            <span>Get the full Modern JavaScript (novice to ninja) course from Udemy. Discount auto applied: https://www.thenetninja.co.uk/udemy/m...
+                            </span>
                         </div>
-                    </div>
-                    <div class="video-description">
-                        <span>Get the full Modern JavaScript (novice to ninja) course from Udemy. Discount auto applied: https://www.thenetninja.co.uk/udemy/m...
-                        </span>
-                    </div>
-                    <hr>
+                        <hr>
+                    </div>                    
                 </div>
                 <!--End of main part-->
                 <!--Start of Right Side that cover recomended video's-->
                 <div id="main-right-side">
                     <aside >
                         <section class="recommended-video-section" >
-                            <div class="recommended-video" >
-                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
+                            <div class="up-next">
+                                <div>
+                                    <span class="up-next-text">Up next</span>
+                                </div>
+                                <div>
+                                    <span class="autoplay-text">AUTOPLAY</span>
+                                    <span class=" autoplay-icon material-icons">
+                                        toggle_off
+                                    </span>
+                                </div>
+                            </div>                            
+                            <div class="recommended-video">
+                                <div class="recommended-video-image" >
+                                    <img
+                                    src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                    alt="Video image"
+                                    />
+                                </div>
+                                <div class="recommended-video-title" >
+                                    <h3 class="subtext-font-family" >Video Title</h3>
+                                    <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                    <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                    <span class="gray-color subtext-font-family" >1 month ago</span>
+                                </div>
+                            </div>                            
+                            <hr/>
+                            <div class="recommended-video">
+                                <div class="recommended-video-image" >
+                                    <img
+                                    src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                    alt="Video image"
+                                    />
+                                </div>
+                                <div class="recommended-video-title" >
+                                    <h3 class="subtext-font-family" >Video Title</h3>
+                                    <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                    <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                    <span class="gray-color subtext-font-family" >1 month ago</span>
+                                </div>
                             </div>
-                            <div class="recommended-video title" >
-                                <h3 class=" subtext-font-family" >Video Title</h3>
-                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
-                                <span class="gray-color subtext-font-family" >987K Views</span>
-                                 <span class="gray-color subtext-font-family" >1 month ago</span>
+                            <div class="recommended-video">
+                                <div class="recommended-video-image" >
+                                    <img
+                                    src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                    alt="Video image"
+                                    />
+                                </div>
+                                <div class="recommended-video-title" >
+                                    <h3 class="subtext-font-family" >Video Title</h3>
+                                    <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                    <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                    <span class="gray-color subtext-font-family" >1 month ago</span>
+                                </div>
+                            </div>
+                            <div class="recommended-video">
+                                <div class="recommended-video-image" >
+                                    <img
+                                    src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                    alt="Video image"
+                                    />
+                                </div>
+                                <div class="recommended-video-title" >
+                                    <h3 class="subtext-font-family" >Video Title</h3>
+                                    <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                    <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                    <span class="gray-color subtext-font-family" >1 month ago</span>
+                                </div>
+                            </div>
+                            <div class="recommended-video">
+                                <div class="recommended-video-image" >
+                                    <img
+                                    src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                    alt="Video image"
+                                    />
+                                </div>
+                                <div class="recommended-video-title" >
+                                    <h3 class="subtext-font-family" >Video Title</h3>
+                                    <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                    <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                    <span class="gray-color subtext-font-family" >1 month ago</span>
+                                </div>
+                            </div>
+                            <div class="recommended-video">
+                                <div class="recommended-video-image" >
+                                    <img
+                                    src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                    alt="Video image"
+                                    />
+                                </div>
+                                <div class="recommended-video-title" >
+                                    <h3 class="subtext-font-family" >Video Title</h3>
+                                    <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                    <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                    <span class="gray-color subtext-font-family" >1 month ago</span>
+                                </div>
                             </div>
                         </section>
-                        <hr/>
             
-                        <section class="recommended-video-section" >
-                            <div class="recommended-video" >
-                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
-                            </div>
-                            <div class="recommended-video title" >
-                                <h3 class=" subtext-font-family" >Video Title</h3>
-                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
-                                <span class="gray-color subtext-font-family" >987K Views</span>
-                                 <span class="gray-color subtext-font-family" >1 month ago</span>
-                            </div>
-                        </section>
                         
-
-                        <section class="recommended-video-section" >
-                            <div class="recommended-video" >
-                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
-                            </div>
-                            <div class="recommended-video title" >
-                                <h3 class=" subtext-font-family" >Video Title</h3>
-                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
-                                <span class="gray-color subtext-font-family" >987K Views</span>
-                                 <span class="gray-color subtext-font-family" >1 month ago</span>
-                            </div>
-                        </section>
-                        <section class="recommended-video-section" >
-                            <div class="recommended-video" >
-                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
-                            </div>
-                            <div class="recommended-video title" >
-                                <h3 class=" subtext-font-family" >Video Title</h3>
-                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
-                                <span class="gray-color subtext-font-family" >987K Views</span>
-                                 <span class="gray-color subtext-font-family" >1 month ago</span>
-                            </div>
-                        </section>
-                        <section class="recommended-video-section" >
-                            <div class="recommended-video" >
-                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
-                            </div>
-                            <div class="recommended-video title" >
-                                <h3 class=" subtext-font-family" >Video Title</h3>
-                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
-                                <span class="gray-color subtext-font-family" >987K Views</span>
-                                 <span class="gray-color subtext-font-family" >1 month ago</span>
-                            </div>
-                        </section>
-                        <section class="recommended-video-section" >
-                            <div class="recommended-video" >
-                                <img  class="recommended-video images" src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"   alt="Video image" >
-                            </div>
-                            <div class="recommended-video title" >
-                                <h3 class=" subtext-font-family" >Video Title</h3>
-                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
-                                <span class="gray-color subtext-font-family" >987K Views</span>
-                                 <span class="gray-color subtext-font-family" >1 month ago</span>
-                            </div>
-                        </section>
                     </aside>
                 </div>
 
