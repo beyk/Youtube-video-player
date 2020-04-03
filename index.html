@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main-css.css">
+        <title>Youtube Video Page</title>
+    </head>
+    <body>
+        <main class="main-container">
+     <!--Start Header Section-->
+            <nav class="nav-header sticky">
+                <div class="nav-left-side" > 
+                    <a href="#">
+                        <span class="material-icons" > 
+                        menu
+                        </span>
+                    </a>
+                    <a href="#"><img class="nav-logo"
+                        src="images/youtube-new-logo.jpeg"
+                        alt="Youtube Logo"/>
+                    </a>                
+                </div>
+                
+                <div class="nav-search-bar" >
+                    <form>
+                        <input type="text" class="search-input">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+
+                <div class="nav-right-side" >
+                    <div class="nav-video-call">
+                        <a href="#">
+                            <span class="material-icons">
+                                video_call
+                            </span>
+                        </a>
+                    </div>
+                    <div class="nav-notification-icon">
+                        <a href="#">
+                            <span class="material-icons">
+                                notifications
+                            </span>
+                        </a>
+                    </div>
+                    <div class="nav-apps-icon">
+                        <a href="#">
+                            <span class="material-icons">
+                                apps
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--End of Header Section-->
+            <!--Start of Main Section-->
+            <div class="main-section" >
+                <!--Start of Main-left-div that contains video-player , title, number of views,comments...-->
+                <div class="main-left-side">
+                    <div id="video-player">
+                        <div class="video">
+                            <iframe class="video-iframe"
+                                src="https://www.youtube.com/embed/iWOYAxlnaww"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen >
+                            </iframe>
+                        </div>
+
+                        <div class="video-caption">
+                            <div id="video-title">
+                                <span>Modern JavaScript Tutorial #1 - Intro & Setup</span>
+                            </div>
+
+                            <div class="video-views-line subtext-font-family gray-color" >
+                                <div class="video-view-date">
+                                    <span class="views-count">96,060 views</span>
+                                    <span id="date-span" >Apr 11, 2019</span>
+                                </div>
+
+                                <div class="video-icons"  >
+                                    <div class="icon-likes">
+                                        <span  class="material-icons">
+                                        thumb_up
+                                        </span>
+                                        <span>254</span>
+                                    </div>
+                                    <div class="icon-dislikes">
+                                        <span class="material-icons" >
+                                        thumb_down
+                                        </span>
+                                        <span>25</span>
+                                    </div>
+                                    <div class="icon-share">
+                                        <span class="material-icons">
+                                        redo
+                                        </span>
+                                        <span>SHARE</span>
+                                    </div>
+                                    <div class="icon-save">
+                                        <span class="material-icons">
+                                            playlist_add
+                                        </span>
+                                        <span>SAVE</span>
+                                    </div>
+                                    <div class="icon-more">
+                                        <span class="material-icons">
+                                        more_horiz
+                                        </span> 
+                                    </div>                                                   
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="author-part" >
+                            <div class="avatar-username">
+                                <div class="author-avatar" >
+                                    <img
+                                        src="images/author-avatar.jpg"
+                                        class="avatar-image"
+                                        alt="Avatar Logo"
+                                    />
+                                </div>
+                                <div class="author-details" >
+                                    <span class="author-name">Abdullah & Asghar</span>
+                                    <br/>
+                                    <span>2200 subscribers</span>
+                                </div>
+                            </div>
+                            <div class="subs-btn" >
+                                <input type="button" title="Subscribe" value="SUBSCRIBE" />
+                            </div>
+                        </div>
+                        <div class="video-description">
+                            <span>Get the full Modern JavaScript (novice to ninja) course from Udemy. Discount auto applied: https://www.thenetninja.co.uk/udemy/m...
+                            </span>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <span class="show-more">SHOW MORE</span>
+                        </div>
+                        <hr>
+                    </div>                    
+                </div>
+                <!--End of main part-->
+                <!--Start of Right Side that cover recomended video's-->
+
+                <aside class="main-right-side">
+                    <div class="recommended-video-section" >
+                        <div class="up-next">
+                            <div>
+                                <span class="up-next-text">Up next</span>
+                            </div>
+                            <div>
+                                <span class="autoplay-text">AUTOPLAY</span>
+                                <span class=" autoplay-icon material-icons">
+                                    toggle_off
+                                </span>
+                            </div>
+                        </div>                            
+                        <div class="recommended-video">
+                            <div class="recommended-video-image" >
+                                <img
+                                src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                alt="Video image"
+                                />
+                            </div>
+                            <div class="recommended-video-title" >
+                                <h3 class="subtext-font-family" >Modern JavaScript Tutorial #1 - Intro & Setup</h3>
+                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                <span class="gray-color subtext-font-family" >1 month ago</span>
+                            </div>
+                        </div>                            
+                        <hr/>
+                        <div class="recommended-video">
+                            <div class="recommended-video-image" >
+                                <img
+                                src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                alt="Video image"
+                                />
+                            </div>
+                            <div class="recommended-video-title" >
+                                <h3 class="subtext-font-family" >Modern JavaScript Tutorial #1 - Intro & Setup</h3>
+                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                <span class="gray-color subtext-font-family" >1 month ago</span>
+                            </div>
+                        </div>
+                        <div class="recommended-video">
+                            <div class="recommended-video-image" >
+                                <img
+                                src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                alt="Video image"
+                                />
+                            </div>
+                            <div class="recommended-video-title" >
+                                <h3 class="subtext-font-family" >Modern JavaScript Tutorial #1 - Intro & Setup</h3>
+                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                <span class="gray-color subtext-font-family" >1 month ago</span>
+                            </div>
+                        </div>
+                        <div class="recommended-video">
+                            <div class="recommended-video-image" >
+                                <img
+                                src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                alt="Video image"
+                                />
+                            </div>
+                            <div class="recommended-video-title" >
+                                <h3 class="subtext-font-family" >Modern JavaScript Tutorial #1 - Intro & Setup</h3>
+                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                <span class="gray-color subtext-font-family" >1 month ago</span>
+                            </div>
+                        </div>
+                        <div class="recommended-video">
+                            <div class="recommended-video-image" >
+                                <img
+                                src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                alt="Video image"
+                                />
+                            </div>
+                            <div class="recommended-video-title" >
+                                <h3 class="subtext-font-family" >Modern JavaScript Tutorial #1 - Intro & Setup</h3>
+                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                <span class="gray-color subtext-font-family" >1 month ago</span>
+                            </div>
+                        </div>
+                        <div class="recommended-video">
+                            <div class="recommended-video-image" >
+                                <img
+                                src="https://car.ir/uploads/files/brands/alfaromeo/tips-cover/mini-mito.jpg"
+                                alt="Video image"
+                                />
+                            </div>
+                            <div class="recommended-video-title" >
+                                <h3 class="subtext-font-family" >Modern JavaScript Tutorial #1 - Intro & Setup</h3>
+                                <h5 class="gray-color subtext-font-family">The Net Ninja</h5>
+                                <span class="gray-color subtext-font-family views-count" >987K Views</span>
+                                <span class="gray-color subtext-font-family" >1 month ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+    </body>

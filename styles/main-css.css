@@ -1,0 +1,305 @@
+@font-face {
+  font-family: "Titillium";
+  font-weight: 500;
+  src: url("../Fonts/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Titillium";
+  font-weight: 300;
+  src: url("../Fonts/TitilliumWeb-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Titillium";
+  font-weight: 200;
+  src: url("../Fonts/TitilliumWeb-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Titillium";
+  font-weight: 100;
+  src: url("../Fonts/TitilliumWeb-Light.ttf");
+}
+
+@font-face {
+  font-family: "Titillium";
+  font-weight: 700;
+  src: url("../Fonts/TitilliumWeb-Bold.ttf");
+}
+
+body,
+html {
+  font-family: Titillium, Arial, Helvetica, sans-serif;
+  background-color: #ffff;
+  padding: 0;
+  margin: 0;
+  direction: ltr;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* Start of Header Section Style */
+
+.nav-header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  top: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.material-icons {
+  color: #606060;
+}
+
+.nav-left-side {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  width: 80px;
+  height: 25px;
+}
+
+.nav-search-bar {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-search-bar button {
+  height: 36px;
+}
+
+.search-input {
+  width: 500px;
+  height: 30px;
+}
+
+.nav-right-side {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 10px;
+}
+
+.nav-header a {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* End of Header Section Style */
+
+/* Start of Main Section Style */
+
+.main-section {
+  display: flex;
+  max-width: 1280px;
+  justify-content: center;
+  margin: auto;
+}
+
+.main-left-side {
+  width: 640px;
+  margin-right: 25px;
+}
+
+.video-iframe {
+  width: 640px;
+  height: 420px;
+  border: none;
+}
+
+.video-caption {
+  margin-top: 20px;
+}
+
+.video-views-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.video-title span {
+  font-size: 18pt;
+}
+
+.video-view-date {
+  width: 250px;
+  font-family: Roboto, Arial, sans-serif;
+  color: rgb(144, 144, 144);
+}
+
+.views-count::after {
+  content: "•";
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.video-icons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.video-icons div {
+  margin-right: 20px;
+}
+
+.video-icons span {
+  vertical-align: middle;
+}
+
+.video-icons .material-icons {
+  color: rgb(144, 144, 144);
+  font-size: 20px;
+}
+
+.author-part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.avatar-username {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.author-avatar {
+  margin-right: 10px;
+}
+
+.avatar-image {
+  border-radius: 50%;
+  width: 48px;
+}
+
+.author-details span {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.subs-btn {
+  margin-right: 5px;
+}
+
+.subs-btn input {
+  width: 110px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+.video-description {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 58px;
+}
+
+.show-more {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #606060;
+}
+
+.main-left-side hr {
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+/* End of Main Section Style */
+
+/* Start of  Right Side Section Style */
+
+.recommended-video-section {
+  display: block;
+}
+
+.up-next {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.up-next span {
+  vertical-align: middle;
+}
+
+.up-next-text {
+  font-size: 18px;
+}
+
+.autoplay-icon {
+  font-size: 40px;
+}
+
+.autoplay-text {
+  font-weight: bold;
+  color: rgb(144, 144, 144);
+}
+
+.recommended-video-section hr {
+  margin-bottom: 10px;
+}
+
+.recommended-video {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.recommended-video h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.recommended-video h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.recommended-video-title {
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.recommended-video span {
+  font-size: 12px;
+}
+
+.recommended-video img {
+  width: 180px;
+  height: 100px;
+  margin-top: 0;
+}
+
+.subtext-font-family {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.gray-color {
+  color: rgb(144, 144, 144);
+}
